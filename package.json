@@ -1,0 +1,30 @@
+{
+  "name": "say-this-app",
+  "version": "1.0.0",
+  "description": "A simple GUI for the \"say\" command in macOS/OS X",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodyssbm/say-this-app.git"
+  },
+  "keywords": [
+    "gui",
+    "electron",
+    "say",
+    "siri"
+  ],
+  "author": "Ethan Moody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moodyssbm/say-this-app/issues"
+  },
+  "homepage": "https://github.com/moodyssbm/say-this-app#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  }
+}
